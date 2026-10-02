@@ -89,3 +89,27 @@ That foundation is useful, but the Nuwud version should evolve around **property
 ## Core Rule
 
 > **Villow makes Property easy to see and operate. Property defines what the information means.**
+
+
+## Nuwud Fork Direction
+
+This fork is being evaluated as the human-facing **Nuwud Property Cockpit** layered over the canonical [nuwud/Property](https://github.com/nuwud/Property) system.
+
+Planned direction includes:
+
+- saved property/opportunity tracking;
+- shared `PROP-OPP` IDs;
+- raw land + commercial + strange-land views;
+- government/public acquisition channels;
+- land-value lenses;
+- contractor/operator intelligence;
+- capital preflight;
+- Property / Business / Capital / Legal / Tax / Risk handoffs.
+
+Deployment is intentionally portable:
+
+- local Docker for development/private use;
+- Google Cloud Run + managed PostgreSQL when dynamic public hosting is needed;
+- static React frontend may live on DreamHost or another static host.
+
+See [docs/DEPLOYMENT_ARCHITECTURE.md](docs/DEPLOYMENT_ARCHITECTURE.md).
