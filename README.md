@@ -1,10 +1,18 @@
 # 🏠 Villow — Nuwud Property Cockpit
 
-> **Status:** internal prototype / evaluation fork.
+> **Status:** DEFERRED / NOT ACTIVE — internal prototype / evaluation fork.
 
 This repository began as a fork of [M8825/Villow](https://github.com/M8825/Villow), a Zillow-style Rails + React real-estate application.
 
-Nuwud is evaluating the familiar map + property-card interface as the **human-facing cockpit for the Nuwud Property OS**.
+Nuwud is evaluating the familiar map + property-card interface as the **future human-facing cockpit for the Nuwud Property OS**. Implementation is intentionally deferred while Patrick continues property/land research.
+
+## Current Decision
+
+- **Do not build/deploy Villow now.**
+- Continue using `nuwud/Property` as the canonical property system.
+- Keep exploring land, commercial property, strange-land, government/public acquisition, and related opportunities.
+- Return to Villow when the property workflow has enough real candidates to justify a visual cockpit.
+- When resumed: local Docker first; remote deployment only when useful.
 
 ## Nuwud Direction
 
