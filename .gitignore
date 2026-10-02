@@ -1,0 +1,36 @@
+# Ruby / Rails
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/storage/*
+!/storage/.keep
+.byebug_history
+
+# Credentials / local environment
+.env
+.env.*
+!.env.example
+/frontend/.env
+/frontend/.env.*
+!/frontend/.env.example
+/config/master.key
+
+# Node
+/frontend/node_modules/
+/frontend/build/
+/node_modules/
+
+# IDE / OS
+.vscode/
+.idea/
+.vs/
+.DS_Store
+Thumbs.db
+
+# Local DB / caches
+*.sqlite3
+*.pid
+*.pid.lock
